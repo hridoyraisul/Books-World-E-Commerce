@@ -1,29 +1,29 @@
 
 ------------------------------------
-### Books World (E-Commerce Website)
+# Books World (E-Commerce Website)
 ------------------------------------
 
 
 ## Installation
 
-# Run command below:
+### Run command below:
 
-git clone https://github.com/hridoyraisul/Books-World-E-Commerce.git
-cd Books-World-E-Commerce
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
-php artisan optimize
-php artisan serve
+git clone https://github.com/hridoyraisul/Books-World-E-Commerce.git <br />
+cd Books-World-E-Commerce <br />
+composer install <br />
+cp .env.example .env <br />
+php artisan key:generate  <br /><br />
+php artisan migrate <br />
+php artisan db:seed <br />
+php artisan optimize <br />
+php artisan serve <br />
 
 ## Browse URL
 
-# User Panel:
+### User Panel:
 http://127.0.0.1:8000/
 
-# Admin Panel:
+### Admin Panel:
 http://127.0.0.1:8000/admin/login
 
 Admin Email: admin@booksworld.com
