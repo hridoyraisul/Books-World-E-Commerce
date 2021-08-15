@@ -12,7 +12,7 @@ git clone https://github.com/hridoyraisul/Books-World-E-Commerce.git <br />
 cd Books-World-E-Commerce <br />
 composer install <br />
 cp .env.example .env <br />
-php artisan key:generate  <br /><br />
+php artisan key:generate  <br />
 php artisan migrate <br />
 php artisan db:seed <br />
 php artisan optimize <br />
