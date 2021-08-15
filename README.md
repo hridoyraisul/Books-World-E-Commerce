@@ -26,7 +26,7 @@ http://127.0.0.1:8000/
 ### Admin Panel:
 http://127.0.0.1:8000/admin/login
 
-Admin Email: admin@booksworld.com
+Admin Email: admin@booksworld.com <br />
 Admin Password: admin@1234
 
 
