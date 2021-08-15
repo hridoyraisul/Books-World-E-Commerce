@@ -29,6 +29,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if(config('app.env') === 'production') {
+            \URL::forceScheme('https');
+        }
         View::composer('*', function ($view){
             $myBooks = Book::where('client_id',session('client_id'))->orderBy('id','DESC')->get();
             $allBooks = Book::all() ? Book::all()->sortByDesc('id')->where('status','=','active') : null;
